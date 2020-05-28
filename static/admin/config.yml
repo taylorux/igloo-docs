@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: master
+  site_domain: localhost
+
+media_folder: static/assets
+public_folder: /assets
+collections:
+  - name: "page"
+    label: "Content Pages"
+    folder: "src/pages/test"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
