@@ -8,7 +8,7 @@ public_folder: /assets
 collections:
   - name: "page"
     label: "Content Pages"
-    folder: "src/pages/test"
+    folder: "docs/guide"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
